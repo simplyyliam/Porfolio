@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: relative;
+    bottom: 28em;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: #EEEEEE50;
+    border-radius: 20px;
+    width: 98%;
+    height: 66px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #232323;
+}
+
+.display-container{
+    background-color: #D3D3D3;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 4px 0px #00000056;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-picture {
+    width: 40px;
+    height: 40px;
+    background-image: url(images/download\ \(32\).jpg);
+    background-position: center;
+    background-size: 100px;
+    border-radius: 100%;
+}
